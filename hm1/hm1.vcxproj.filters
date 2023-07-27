@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="time">
+      <UniqueIdentifier>{5dafc3f0-6fd4-40fe-b18b-261d48e8d516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{bfd7110a-23b8-44e2-92bb-7b527c4f312f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="events">
+      <UniqueIdentifier>{e87c7f0d-e952-4ff0-bd52-8c53fb64c2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="events\header">
+      <UniqueIdentifier>{85f3ad52-c305-4a52-baa3-27a28f9ee1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="events\eventsInterface">
+      <UniqueIdentifier>{6a08f2e7-6ce7-4965-ae5d-826a4a5a4c3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hm1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHitByACar.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+    <ClCompile Include="IEventType.cpp">
+      <Filter>events\eventsInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="EventNap.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyTime.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHitByACar.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventType.h">
+      <Filter>events\eventsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="EventNap.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsArchive.h">
+      <Filter>events\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
